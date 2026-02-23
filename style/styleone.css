@@ -7,7 +7,6 @@
   font-variation-settings:
     "wdth" 100;
 }
-
 /* shared style */
 .secondery-bg{
     background-color: #FFF8F3;
@@ -171,4 +170,24 @@ main section{
 .edit-btn{
     margin-top:50px ;
     text-align: center;
+}
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 110px;
+}
+.footer-colum{
+    width: 50%;
+
+}
+.input {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
